@@ -1,0 +1,78 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  padding-block: 4rem;
+  font-family: 'Arial', sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+#controls {
+  border: none;
+}
+
+.inputbox {
+  margin-block: 1rem;
+}
+
+input {
+  display: block;
+  margin-block: 0.5rem;
+}
+
+textarea {
+  display: block;
+}
+
+#textcontainer {
+  padding: 1rem 2rem;
+  margin-block: 1rem;
+}
+
+fieldset {
+  border-radius: 1rem;
+  padding: 0;
+  border-style: solid;
+}
+
+#texttocheck {
+  width: 100%;
+}
